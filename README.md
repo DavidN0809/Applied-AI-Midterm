@@ -51,16 +51,32 @@ Inside ./Data is the dogs vs cats dataset. Inside ./figs is the accuracy, AUC an
 conda activate applied-ai
 tmux new -s papermill_session-srgan
 conda activate applied-ai
-papermill ./srgan.ipynb ./srgan-output.ipynb
+papermill /opt/notebooks/Applied-AI-Midterm/notebooks/srgan.ipynb /opt/notebooks/Applied-AI-Midterm/notebooks/output/srgan-output.ipynb
 ```
 
 
-### Using tmux and papermill to train m
+### Using tmux and papermill to generate images
+```bash
+conda activate applied-ai
+tmux new -s papermill_session-generate
+conda activate applied-ai
+papermill /opt/notebooks/Applied-AI-Midterm/notebooks/generating-srgan-images.ipynb /opt/notebooks/Applied-AI-Midterm/notebooks/output/generating-srgan-images-output.ipynb
+```
+
+### Using tmux and papermill to train a
 ```bash
 conda activate applied-ai
 tmux new -s papermill_session-model-a
 conda activate applied-ai
-papermill ./model-a.ipynb ./model-a-output.ipynb
+papermill /opt/notebooks/Applied-AI-Midterm/notebooks/model-a.ipynb /opt/notebooks/Applied-AI-Midterm/notebooks/output/model-a-output.ipynb
+```
+
+### Using tmux and papermill to train b
+```bash
+conda activate applied-ai
+tmux new -s papermill_session-model-b
+conda activate applied-ai
+papermill /opt/notebooks/Applied-AI-Midterm/notebooks/model-b.ipynb /opt/notebooks/Applied-AI-Midterm/notebooks/output/model-b-output.ipynb
 ```
 
 
