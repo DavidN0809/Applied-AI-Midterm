@@ -2,3 +2,4 @@ Data/
 wandb/
 models/
 .ipynb_checkpoints/
+output/
