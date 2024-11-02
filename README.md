@@ -1,4 +1,4 @@
-# ML-Biomed-Midterm
+# ML-Applied-AI-Midterm
 
 ## Train a binary classifier (called A) on the dataset using transfer learning (exactly like Assignment 1). The images should be downscaled to 128x128
 The above requirement is done in the Model A notebook
@@ -22,7 +22,9 @@ This is done in the Comparison notebook.
 # How to use 
 Download the repo with the following command. git clone https://github.com/DavidN0809/Applied-AI-Midterm.git
 ## Create Conda Env
-Run conda env create -f environment.yml -n midterm then run conda activate midterm
+```bash
+conda env create -f environment.yml -n applied-ai then run conda activate applied-ai
+```
 
 ## Step 1
 Run the Model A notebook, it will save the figures into the ./figs directory.
@@ -44,7 +46,7 @@ Run the Comparison notebook to see all plots from both model A and Model B
 ![FIXME Model B F1 Score](/notebooks/srgan-output/epoch_100_Adversarial%20Training.png)
 
 # Directory Explained
-Inside ./Data is the dogs vs cats dataset. Inside ./figs is the accuracy, AUC and f1 accuracy plots. Inside ./models is the best model_a, model_b, generator and discriminator models. Inside ./notebooks/srgan-output/ is where the output image files from the SRGAN notebook is stored, comparing the low res, high res and generated images. Inside ./Data/srgan is a copy of ./Data that is resized to 128x128 using the SRGAN.
+Inside ./Data is the dogs vs cats dataset (Not uploaded to git). Inside ./figs is the accuracy, AUC and f1 accuracy plots. Inside ./models is the best model_a, model_b, generator and discriminator models. Inside ./notebooks/srgan-output/ is where the output image files from the SRGAN notebook is stored, comparing the low res, high res and generated images. Inside ./Data/srgan (not uploaded to git) is a copy of ./Data that is resized to 128x128 using the SRGAN, this is created in the generated images notebook.
 
 
 ## Needed Commands to train and generate images (on headless machine)
