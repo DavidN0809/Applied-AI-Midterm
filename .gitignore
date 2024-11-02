@@ -2,3 +2,4 @@ Data/
 notebooks/wandb/
 notebooks/models/
 .ipynb_checkpoints/
+wandb/
