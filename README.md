@@ -29,7 +29,7 @@ Run the Model A notebook, it will save the figures into the ./figs directory.
 
 ## Step 2
 Run the SRGAN notebook to train and save the generator and discriminator models.
-![Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)](./notebooks/srgan-outputs/epoch_100_Adversarial%20Training.png)
+![Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)](/notebooks/srgan-output/epoch_100_Adversarial%20Training.png)
 
 
 ## Step 3
