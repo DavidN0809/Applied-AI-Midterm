@@ -1,0 +1,8 @@
+{"time":"2024-11-02T14:22:10.705355748Z","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-02T14:22:10.705383813Z","level":"INFO","msg":"created symlink","path":"/opt/notebooks/Applied-AI-Midterm/wandb/run-20241102_142210-1b1x887h/logs/debug-core.log"}
+{"time":"2024-11-02T14:22:10.809442565Z","level":"INFO","msg":"created new stream","id":"1b1x887h"}
+{"time":"2024-11-02T14:22:10.809510124Z","level":"INFO","msg":"stream: started","id":"1b1x887h"}
+{"time":"2024-11-02T14:22:10.81171733Z","level":"INFO","msg":"handler: started","stream_id":{"value":"1b1x887h"}}
+{"time":"2024-11-02T14:22:10.811844189Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1b1x887h"}}
+{"time":"2024-11-02T14:22:10.812082139Z","level":"INFO","msg":"sender: started","stream_id":"1b1x887h"}
+{"time":"2024-11-02T14:22:11.070486799Z","level":"INFO","msg":"Starting system monitor"}

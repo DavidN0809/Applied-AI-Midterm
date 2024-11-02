@@ -1,0 +1,44 @@
+{
+  "os":  "Linux-5.15.0-124-generic-x86_64-with-glibc2.36",
+  "python":  "3.12.7",
+  "startedAt":  "2024-11-02T14:21:54.247096Z",
+  "args":  [
+    "-f",
+    "/tmp/tmpun7pez46.json"
+  ],
+  "program":  "<python with no main file>",
+  "git":  {
+    "remote":  "git@github.com:DavidN0809/Applied-AI-Midterm.git"
+  },
+  "email":  "dnicho26@uncc.edu",
+  "root":  "/opt/notebooks/Applied-AI-Midterm",
+  "host":  "4b1a4cd07556",
+  "username":  "root",
+  "executable":  "/opt/conda/envs/applied-ai/bin/python",
+  "cpu_count":  48,
+  "cpu_count_logical":  48,
+  "gpu":  "Tesla P100-PCIE-16GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "133003395072",
+      "used":  "118786166784"
+    }
+  },
+  "memory":  {
+    "total":  "101226364928"
+  },
+  "cpu":  {
+    "count":  48,
+    "countLogical":  48
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla P100-PCIE-16GB",
+      "memoryTotal":  "17179869184",
+      "cudaCores":  3584,
+      "architecture":  "Pascal"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}
