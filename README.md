@@ -5,7 +5,7 @@ The above requirement is done in the Model A notebook
 
 ## Train the SRGAN for at least 150 epochs
 Next, train the SRGAN to generate 128x128 images. Each image of the training is downscaled to 32x32.
-The above requirements is done in the SRGAN notebook. It was trained for 80 epochs due to running out of time.
+The above requirements is done in the SRGAN notebook. Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)
 
 ## Show some examples of scaled images in JNB
 The above requirement is done in the SRGAN notebook, and saved to the outputs folder
@@ -29,6 +29,8 @@ Run the Model A notebook, it will save the figures into the ./figs directory.
 
 ## Step 2
 Run the SRGAN notebook to train and save the generator and discriminator models.
+![Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)](./notebooks/srgan-outputs/epoch_100_Adversarial%20Training.png)
+
 
 ## Step 3
 Run the Generating 128x128 Images notebook to generate the images for model B.
@@ -36,11 +38,11 @@ Run the Generating 128x128 Images notebook to generate the images for model B.
 ## Step 4
 Run model B notebook it will save the figures into the ./figs directory.
 
-## Step 5 
-Run the comparison notebook to view all the saved figures
+## Step 5
+Run the Comparison notebook to see all plots from both model A and Model B
 
 # Directory Explained
-Inside ./Data is the dogs vs cats dataset. Inside ./figs is the accuracy, AUC and f1 accuracy plots. Inside ./models is the model_a, model_b, generator and discriminator models. Inside ./output is where the output image files from the SRGAN notebook is stored, comparing the low res, high res and generated images. Inside ./Data/srgan is a copy of ./Data that is resized to 128x128 using the SRGAN.
+Inside ./Data is the dogs vs cats dataset. Inside ./figs is the accuracy, AUC and f1 accuracy plots. Inside ./models is the best model_a, model_b, generator and discriminator models. Inside ./notebooks/srgan-output/ is where the output image files from the SRGAN notebook is stored, comparing the low res, high res and generated images. Inside ./Data/srgan is a copy of ./Data that is resized to 128x128 using the SRGAN.
 
 
 ## Needed Commands to train and generate images
