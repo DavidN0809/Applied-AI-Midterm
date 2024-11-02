@@ -1,4 +1,4 @@
 Data/
-/notebooks/wandb/
-/notebooks/models/
+notebooks/wandb/
+notebooks/models/
 .ipynb_checkpoints/
