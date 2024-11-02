@@ -31,7 +31,6 @@ Run the Model A notebook, it will save the figures into the ./figs directory.
 Run the SRGAN notebook to train and save the generator and discriminator models.
 ![Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)](/notebooks/srgan-output/epoch_100_Adversarial%20Training.png)
 
-
 ## Step 3
 Run the Generating 128x128 Images notebook to generate the images for model B.
 
@@ -41,11 +40,14 @@ Run model B notebook it will save the figures into the ./figs directory.
 ## Step 5
 Run the Comparison notebook to see all plots from both model A and Model B
 
+![FIXME Model A F1 Score](/notebooks/srgan-output/epoch_100_Adversarial%20Training.png)
+![FIXME Model B F1 Score](/notebooks/srgan-output/epoch_100_Adversarial%20Training.png)
+
 # Directory Explained
 Inside ./Data is the dogs vs cats dataset. Inside ./figs is the accuracy, AUC and f1 accuracy plots. Inside ./models is the best model_a, model_b, generator and discriminator models. Inside ./notebooks/srgan-output/ is where the output image files from the SRGAN notebook is stored, comparing the low res, high res and generated images. Inside ./Data/srgan is a copy of ./Data that is resized to 128x128 using the SRGAN.
 
 
-## Needed Commands to train and generate images
+## Needed Commands to train and generate images (on headless machine)
 ### Using tmux and papermill to process srgan and model-a
 
 ### Using tmux and papermill to train srgan
