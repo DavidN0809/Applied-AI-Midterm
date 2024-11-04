@@ -42,8 +42,7 @@ Run model B notebook it will save the figures into the ./figs directory.
 ## Step 5
 Run the Comparison notebook to see all plots from both model A and Model B
 
-![FIXME Model A F1 Score](/notebooks/srgan-output/epoch_100_Adversarial%20Training.png)
-![FIXME Model B F1 Score](/notebooks/srgan-output/epoch_100_Adversarial%20Training.png)
+![Comparision](/notebooks/figs/comparison.png)
 
 # Directory Explained
 Inside ./Data is the dogs vs cats dataset (Not uploaded to git). Inside ./figs is the accuracy, AUC and f1 accuracy plots. Inside ./models is the best model_a, model_b, generator and discriminator models. Inside ./notebooks/srgan-output/ is where the output image files from the SRGAN notebook is stored, comparing the low res, high res and generated images. Inside ./Data/srgan (not uploaded to git) is a copy of ./Data that is resized to 128x128 using the SRGAN, this is created in the generated images notebook.
