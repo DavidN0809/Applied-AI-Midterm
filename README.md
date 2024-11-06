@@ -3,12 +3,12 @@
 ## Train a binary classifier (called A) on the dataset using transfer learning (exactly like Assignment 1). The images should be downscaled to 128x128
 The above requirement is done in the Model A notebook
 
-## Train the SRGAN for at least 150 epochs
-Next, train the SRGAN to generate 128x128 images. Each image of the training is downscaled to 32x32.
+## Next, train the SRGAN to generate 128x128 images. Each image of the training is downscaled to 32x32.
 The above requirements is done in the SRGAN notebook. Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)
 
 ## Show some examples of scaled images in JNB
 The above requirement is done in the SRGAN notebook, and saved to the outputs folder
+![Example Image from SRGAN Generation](srgan-test-image.jpeg)
 
 ## Apply normalization and image transformation, and demonstrate some of the transformed samples
 This is done in the Model B notebook
