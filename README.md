@@ -7,7 +7,8 @@ The above requirement is done in the Model A notebook
 The above requirements is done in the SRGAN notebook. Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)
 
 ## Show some examples of scaled images in JNB
-The above requirement is done in the SRGAN notebook, and saved to the outputs folder
+The above requirement is done in the SRGAN notebook, and saved to the outputs folder.
+Here is an example image.
 ![Example Image from SRGAN Generation](srgan-test-image.jpeg)
 
 ## Apply normalization and image transformation, and demonstrate some of the transformed samples
@@ -30,7 +31,7 @@ conda env create -f environment.yml -n applied-ai then run conda activate applie
 Run the Model A notebook, it will save the figures into the ./figs directory.
 
 ## Step 2
-Run the SRGAN notebook to train and save the generator and discriminator models.
+Run the SRGAN notebook to train and save the generator and discriminator models. Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)
 ![Example image from EPOCH 150 (pretraining 50 epochs, training srgan for 100 epochs)](/notebooks/srgan-output/epoch_100_Adversarial%20Training.png)
 
 ## Step 3
